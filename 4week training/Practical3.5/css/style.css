@@ -1,0 +1,37 @@
+body{
+	margin:40px 5px;
+	background-color:lightgreen;
+}
+h1{
+	color:purple;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.head{
+	height: 
+}
+.col-sm-6 p{
+	font-size:30px;
+}
+ .badge-primary{
+ 	background-color:#007bff ;
+ }
+ .badge-success{
+ 	background-color: #28a745;
+ }
+ .bg-success{
+ 	background-color:#28a745!important; 
+ }
+ .bg-info{
+ 	background-color:#17a2b8!important; 
+ }
+.bg-warning{
+	background-color: #ffc107!important;
+}
+ .bg-danger{
+ 	background-color: #dc3545!important;
+ }
+ .col-sm-10{
+ 		font-size:30px;
+ 		margin-left: 50px;
+ }

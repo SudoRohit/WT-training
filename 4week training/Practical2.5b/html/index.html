@@ -1,0 +1,193 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+		<!-- slider -->
+		<link rel="stylesheet" href="../css/slider.css" type="text/css" media="screen" />
+		<!-- image galley -->
+		<link rel="stylesheet" type="text/css" href="../css/lightbox.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	</head>
+	<body>
+		<div class="header">
+			<i class = "material-icons">public</i>
+			Email-abc@xyz.com<br> Call-123112
+		</div>
+		<div class="navbar">
+  			<a href="#home">Home</a>
+  			<a href="about.html">About Us</a>
+  				<div class="dropdown">
+    				<button class="dropbtn">Dropdown
+     				 	<i class="fa fa-caret-down"></i>
+    				</button>
+    				<div class="dropdown-content">
+      					<a href="#">Link 1</a>
+      					<a href="#">Link 2</a>
+      					<a href="#">Link 3</a>
+   			 		</div>
+  				</div>
+		</div>
+		<div class="h">
+			<p class="animate__animated animate__backInDown">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Corrupti officiis necessitatibus recusandae sequi ab incidunt neque nemo fugiat, laudantium sit asperiores, reiciendis consequatur assumenda exercitationem nostrum odit. Laudantium corrupti, nulla.</p><br>
+			<a href="tel:123112">Call us</a><br><br>
+			<a href="mailto:123112">Email us</a>
+		</div>
+		<div class="parallax"></div>
+		<div>
+			<table class="wow pulse">
+				<tr>
+					<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1kzCIvgCKQy7lQB8W99K5NHJ61quuqnPZw&usqp=CAU"></td>
+					<td class="animate__animated animate__headShake">Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Ullam, quos. Earum temporibus minus architecto officia nostrum accusamus veritatis quasi sed nam dicta enim corrupti necessitatibus voluptatem, iusto, aspernatur minima commodi.</td>
+				</tr>
+				<tr>
+					<td class="animate__animated animate__headShake">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Eum, necessitatibus. Veniam repellendus impedit facere provident vitae iste, eveniet quos nulla facilis eius ex atque dignissimos. Magnam quis doloribus voluptate, architecto.</td>
+					<td>
+						<style>
+ 							.fadein { position:relative; height:300px; width:500px; }
+						 	.fadein img { position:absolute; left:0; top:0; }
+						</style>
+						<script type="text/javascript" src="http://www.hscripts.com/jquery.js"></script>
+						<script type="text/javascript">
+						 $(function(){
+						$('.fadein img:gt(0)').hide();
+						setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 2000);
+						});
+						</script>
+						<div class="fadein">
+						 <img src="https://cdn.vox-cdn.com/thumbor/Ohs67lw4c_o3gsdWjwgRCmWdm6U=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13074037/hs-2014-27-a-print.0.0.1486275780.jpg" alt="Image Slideshow Script">
+						 <img src="https://static.theprint.in/wp-content/uploads/2020/03/minor-planets.jpg" alt="Image Slideshow Script">
+						 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtiVrERaLq5dpJ14TbtTVEmaisX9gFUk8hhg&usqp=CAU" alt="Image Slideshow Script">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="parallax"></div>
+		<div class="wow slideInLeft">
+					<div class="slideshow-container">
+				<div class="mySlides">
+				  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+				  <p class="author">- John Keats</p>
+				</div>
+
+				<div class="mySlides">
+				  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+				  <p class="author">- Ernest Hemingway</p>
+				</div>
+
+				<div class="mySlides">
+				  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+				  <p class="author">- Thomas A. Edison</p>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+
+				<div class="dot-container">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+		</div>
+		<div class="parallax"></div>
+		<div class="gallery">
+			<strong class="wow slideInLeft">Image Gallery</strong>
+			<div>
+		      <a class="example-image-link" href="https://africanews.space/wp-content/uploads/2021/01/space-debris-junk-africa-cleanup.jpg" data-lightbox="example-set"><img class="example-image" src="https://africanews.space/wp-content/uploads/2021/01/space-debris-junk-africa-cleanup.jpg" alt=""/></a>
+		      <a class="example-image-link" href="https://static.independent.co.uk/2021/06/04/10/DESY_GRB_still_1.jpeg?width=1200" data-lightbox="example-set"><img class="example-image" src="https://static.independent.co.uk/2021/06/04/10/DESY_GRB_still_1.jpeg?width=1200" alt="" /></a>
+		      <a class="example-image-link" href="https://thumbs-prod.si-cdn.com/5IC2_-4TL008uHd3srmFFYh_LwU=/800x450/filters:focal(2989x1536:2990x1537)/https://public-media.si-cdn.com/filer/35/3b/353b17c0-cd7b-4625-9f97-f3c3ef59055e/gettyimages-1229960181.jpg" data-lightbox="example-set" ><img class="example-image" src="https://thumbs-prod.si-cdn.com/5IC2_-4TL008uHd3srmFFYh_LwU=/800x450/filters:focal(2989x1536:2990x1537)/https://public-media.si-cdn.com/filer/35/3b/353b17c0-cd7b-4625-9f97-f3c3ef59055e/gettyimages-1229960181.jpg" alt="" /></a>
+		      <a class="example-image-link" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTna_QMTdrKfaibyBB8CeN2vQ4H6Iq4kU2RHg&usqp=CAU" data-lightbox="example-set"><img class="example-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTna_QMTdrKfaibyBB8CeN2vQ4H6Iq4kU2RHg&usqp=CAU" alt="" /></a>
+		      <a class="example-image-link" href="https://cdn.mos.cms.futurecdn.net/Gw9wVjyJYuLAuaeM6z4n6W-1200-80.jpg" data-lightbox="example-set"><img class="example-image" src="https://cdn.mos.cms.futurecdn.net/Gw9wVjyJYuLAuaeM6z4n6W-1200-80.jpg" alt="" /></a>
+		      <a class="example-image-link" href="https://images.ctfassets.net/cnu0m8re1exe/2DYsgTu86tZd9Yh3CfwToQ/971c67e0330015b3fd371a2f1767311b/heic0301a.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill" data-lightbox="example-set"><img class="example-image" src="https://images.ctfassets.net/cnu0m8re1exe/2DYsgTu86tZd9Yh3CfwToQ/971c67e0330015b3fd371a2f1767311b/heic0301a.jpg?fm=jpg&fl=progressive&w=660&h=433&fit=fill" alt="" /></a>
+		    </div>
+    		<script src="../js/lightbox-plus-jquery.min.js"></script>
+		</div>
+		<div class="parallax"></div>
+		<div class="footer">
+			<hr>
+			<div class="divf">
+				<div class="f">
+					<h2>Explore</h2>
+					<a href="">Home</a><br>
+					<a href="">About Us</a><br>
+					<a href="">Contact Us</a>
+				</div>
+				<div class="f">
+					<h2>Visit</h2>
+					Address-#abc,st.-4,qaz<br>
+					Email-abc@xyz.com<br>
+					Phone no.-123112
+				</div>
+				<div class="f">
+					<h2>Follow</h2>
+					<a href="">Twitter</a><br>
+					<a href="">Instagram</a><br>
+					<a href="">Linkedin</a>
+				</div>
+				<div class="f">
+					<h2>Legal</h2>
+					<a href="">Terms</a><br>
+					<a href="">Policies</a><br><br><br>
+				</div>
+			</div>
+			<hr>
+			<i class="material-icons">copyright</i>2021 Rohit. All Rights Reserved.
+		</div>
+		  <script src="../js//wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	</body>
+</html>

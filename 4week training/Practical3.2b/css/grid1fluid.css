@@ -1,0 +1,21 @@
+.container-fluid {
+	color: white;
+}
+.col-md-1 {
+	background-color: wheat;
+}
+.col-md-2 {
+	background-color: blue;
+}
+.col-md-3 {
+	background-color: green;
+}
+.col-md-4 {
+	background-color: yellow;
+}
+.col-md-6 {
+	background-color: red;
+}
+.col-md-12 {
+	background-color: orange;
+}

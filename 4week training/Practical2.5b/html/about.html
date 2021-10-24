@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>About Us</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<!-- font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<!-- icon -->
+		<link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	</head>
+	<body>
+		<header class="header">
+			<i class = "material-icons">public</i>
+			Email-abc@xyz.com<br> Call-123112
+		</header>
+		<nav class="navbar">
+  			<a href="index.html">Home</a>
+  			<a href="#">About Us</a>
+  				<div class="dropdown">
+    				<button class="dropbtn">Dropdown
+     				 	<i class="fa fa-caret-down"></i>
+    				</button>
+    				<div class="dropdown-content">
+      					<a href="#">Link 1</a>
+      					<a href="#">Link 2</a>
+      					<a href="#">Link 3</a>
+   			 		</div>
+  				</div>
+		</nav>
+		<div class="parallax"></div>
+		
+		<section>
+			<h2 class="animate__animated animate__heartBeat">About Company</h2>
+			<article class="wow slideInLeft">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto eveniet tempora adipisci velit explicabo error dolorem, sed cumque vitae possimus odit reiciendis et distinctio ipsam consequatur quos sint enim, facere. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam libero saepe, unde architecto asperiores nisi aut molestias hic nihil ea ut eveniet dolorum dicta qui non quis assumenda laborum adipisci!</article><br><br>
+			<div class="parallax"></div>
+			<h2 class="animate__animated animate__heartBeat">About Devs</h2>
+			<article class="wow slideInLeft">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatem porro vero quae, ex iure, debitis repudiandae quidem natus, amet blanditiis omnis quibusdam quasi recusandae fugiat distinctio. Sed in, molestiae.</article>
+		</section>
+		<br>
+		<div class="parallax"></div>
+		<footer class="footer">
+			<hr>
+			<div class="divf">
+				<div class="f">
+					<h2>Explore</h2>
+					<a href="">Home</a><br>
+					<a href="">About Us</a><br>
+					<a href="">Contact Us</a>
+				</div>
+				<div class="f">
+					<h2>Visit</h2>
+					Address-#abc,st.-4,qaz<br>
+					Email-abc@xyz.com<br>
+					Phone no.-123112
+				</div>
+				<div class="f">
+					<h2>Follow</h2>
+					<a href="">Twitter</a><br>
+					<a href="">Instagram</a><br>
+					<a href="">Linkedin</a>
+				</div>
+				<div class="f">
+					<h2>Legal</h2>
+					<a href="">Terms</a><br>
+					<a href="">Policies</a><br><br><br>
+				</div>
+			</div>
+			<hr>
+			<i class="material-icons">copyright</i>2021 Rohit. All Rights Reserved.
+		</footer>
+		  <script src="../js//wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	</body>
+</html>

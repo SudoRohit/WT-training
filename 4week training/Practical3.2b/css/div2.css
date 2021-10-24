@@ -1,0 +1,36 @@
+.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-7 {
+	height: 100px;
+}
+.lblue {
+	background-color: #356AA0;
+}
+.lgreen {
+	background-color: #19B64D;
+}
+.black {
+	background-color: #0B1401;
+}
+.yellow {
+	background-color: #C9F30B;
+}
+.green {
+	background-color: #57A035;
+}
+.blue {
+	background-color: #1732B5;
+}
+.teal {
+	background-color: #078675;
+}
+.red {
+	background-color: #BF1515;
+}
+.dgreen {
+	background-color: #8EB618;
+}
+.pink {
+	background-color: #EA2FD6;
+}
+.dpgreen {
+	background-color: #558608;
+}

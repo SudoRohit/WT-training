@@ -1,0 +1,27 @@
+.b1{
+	background-color: #90CBFB;
+	text-align: center;
+}
+h1{
+	font-size: 70;
+	font-family: sans-serif;
+	color: #110066;
+	background-color: #FFFFFF;
+}
+h1 a{
+	text-decoration: none;
+}
+ul{}
+ul li{
+	list-style-type: none;
+	float: left;
+	font-size: 25;
+	color: #110066;
+	padding-left: 40;
+}
+ul  li a{
+	text-decoration: none;
+}
+ul li a:hover{
+	background-color: #FFFFFF;
+}

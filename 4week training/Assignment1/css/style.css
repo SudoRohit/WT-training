@@ -1,0 +1,512 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #f3f3f3;
+}
+.container {
+	margin: 0 auto;
+	height: auto;
+	width: 1170px;
+}
+.row1 {
+	height: 55px;
+	width: 100%;
+	background: linear-gradient(115deg,#ff3d00 60%,#252628 40%);
+}
+.row2 {
+	height: 55px;
+	width: 100%;
+	padding: 15px 90px;
+}
+.topbar {
+	padding: 15px 0 0 90px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+.right {
+	float: right;
+	padding-right: 90px;
+}
+i {
+	margin: 0 10px;
+}
+.row2 ul li {
+	list-style-type: none;
+  	margin: 0;
+  	display: inline;
+}
+.row2 a {
+  	float: left;
+  	font-family: sans-serif;
+  	text-align: center;
+  	padding: 40px 10px;
+  	text-decoration: none;
+  	font-size: 16px;
+}
+.row2 button {
+	background-color: #ff3d00;
+	margin: 30px 0 30px -75px;
+	color: white;
+	font-family: sans-serif;
+	border: 0;
+	padding: 8px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-right: -80px;
+	margin-left: 25px;
+}
+.row2 a:hover {
+  	color: #ff3d00;
+}
+.gry {
+	color: grey;
+}
+.p1 {
+	background-image: url("../images/img1.jpg");
+	height: 700px;
+	margin: 90px 0 0 0;
+	background-repeat: no-repeat;
+	padding: 150px 0 0 90px;
+	font-family: sans-serif;
+}
+.p1p1 {
+	color: grey;
+	font-size: 23px;
+	margin-top: 10px;
+}
+.boldH {
+	font-size: 25px;
+	font-weight: bold;	
+	letter-spacing: 2px;
+	text-decoration: overline;
+	text-decoration-color: #ff3d00;
+}
+.bolderH {
+	line-height: 75px;
+	font-size: 65px;
+	font-weight: bolder;
+}
+.lmB {
+	background-color: #ff3d00;
+	color: white;
+	padding: 10px 20px 10px 30px;
+	border: 0;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+.playB {
+	background-color: #ff3d00;
+	color: white;
+	border-radius: 50%;
+	padding: 8px 2px;
+	border: 0;
+	font-size: 35px;
+	margin-left: 20px;
+}
+.about {
+	margin: 0 auto;
+	height: auto;
+	width: 1170px;
+}
+.left1 {
+	float: left;
+}
+.right1 {
+	float: right;
+	margin: -300px 0 0 0;
+}
+.leftImg {
+  	position: relative;
+  	left: 0px;
+  	top: 0px;
+  	z-index: -1;
+  	margin-top: 75px;
+}
+.rightImg {
+  	position: relative;
+  	left: -450px;
+  	top: 135px;
+  	z-index: -1;
+  	border: 10px solid #fff;
+  	border-bottom-left-radius: 20px;
+}
+.aboutcmp {
+	color: orangered;
+	font-weight: bold;
+}
+.aboutH {
+	line-height: 60px;
+	font-size: 47px;
+	font-weight: bold;
+}
+.rightalign {
+	margin-left: 200px;
+	padding-top: 35px;
+}
+.services {
+	margin: 0 auto;
+	height: auto;
+	width: 1520px;
+	background-color: #f4f7fc;
+	float: left;	
+	margin-top: 100px;
+}
+.left2 {
+	margin: 10px;
+	padding: 65px 90px;
+}
+.right2 {
+	float: right;
+	color: #9c9e9e;
+	margin-top: -200px;
+	padding-right: 100px;
+	font-size: 19px;
+	line-height: 40px;
+}
+.service_center {
+	text-align: center;
+}
+.service_box {
+	float: left;
+	border-radius: 10px;
+	padding: 18px;
+	text-align: justify;
+	background-color: #fefefe;
+	margin: 50px;
+	margin-left: 90px;
+	width: 350px;
+}
+.service_box p {
+	color: grey;
+}
+.service_box h3 {
+	font-weight: bold;
+}
+.service_boxButtons {
+	background: linear-gradient(115deg,#f4f7fc 65%,#ff3d00 35%);
+	height: 50px;
+	padding: 0 0 0 20px;
+	margin-top: 30px;
+	margin-right: 0;
+}
+.service_boxButtonsleft h3 {
+	font-weight: normal;
+	padding-top: 5px;
+}
+.service_boxButtonsright {
+	float: right;	
+	margin-top: -45px;
+	margin-right: 20px;
+}
+.boxAlign {
+	padding-left: 20px;
+}
+.team {
+	background-color: white;
+}
+.centerteam {
+	text-align: center;
+	margin-left: 90px;
+}
+.imgbox {
+	float: left;
+	text-align: center;
+	padding: 25px 110px 0 0;
+}
+.consult {
+	height: 643px;
+	background-color: white;
+}
+.consult img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	left: 90px;
+	top: 90px;
+}
+.rightside {
+	position: absolute;
+	display: flex;
+	width: 775px;
+	height: 620px;
+	flex-direction: column;
+	align-items: center;
+	right: 255px;
+	top: 3315px;
+	background-color: white;
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3);
+	padding: 40px;
+}
+.rightside input[type="text"] {
+	width: 635px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #f3f0e8;
+	height: 50px;
+	padding: 0 0 0 15px;
+}
+.rightside input[type="submit"] {
+	width: 635px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 0;
+	height: 50px;
+	margin: 30px 0;
+	background-color: #ff3d00;
+	color: white;
+}
+textarea {
+	border-radius: 5px;
+	border: 1px solid #f3f0e8;
+	padding: 10px 0 0 15px;
+}
+.work {
+	text-align: center;
+	position: relative;
+	top: 550px;
+	background-color: ;
+}
+.round {
+	float: left;
+	margin: 0 0 0 130px;
+}
+.round img {
+	position: relative;
+	top: 75px;
+	border-radius: 50%;
+	border: 12px solid white;
+	box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+	margin-bottom: 85px;
+}
+.round h3 {
+	font-weight: bold;
+}
+.round p {
+	color: dimgrey;
+	padding-bottom: 75px;
+}
+.solution {
+	position: relative;
+	top: 975px;
+	height: 750px;
+	text-align: center;
+	background-color: #16161D;
+	background-blend-mode: soft-light;
+	background-image: url("https://www.qualityformationsblog.co.uk/wp-content/uploads/2020/04/QCF_Meeting-1.jpg");
+}
+.solution i {
+	background-color: white;
+	color: #ff3d00;
+	padding: 35px;
+	border-radius: 50%;
+	margin-top: -375px;
+}
+.solution h2 {
+	color: white;
+	font-weight: bolder;
+	font-size: 40px;
+	line-height: 20px;	
+	position: relative;
+	top: -193px;	
+}
+.solution h1 {
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+	position: relative;
+	top: -193px;
+}
+.solution p {
+	color: white;
+	font-size: 18px;
+	position: relative;
+	top: -193px;
+}
+.solution button {
+	background-color: #ff3d00;
+	font-family: sans-serif;
+	padding: 13px 28px;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	position: relative;
+	top: -193px;
+}
+.quotes {
+	float: left;
+	position: relative;
+	top: 800px;
+	left: 90px;
+	background-color: white;
+	text-align: center;
+	padding: 35px;
+	width: 365px;
+	margin-left: 57px;
+	border-radius: 15px;
+	border: 1px solid antiquewhite;
+}
+.quotes img {
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+.quotes p {
+	color: dimgrey;
+}
+.quotes h3 {
+	font-weight: bold;
+}
+.hbottom {
+	color: #ff3d00;
+} 
+.blogs {
+	text-align: center;
+}
+.header {
+	float: left;
+	position: relative;
+	top: 900px;	
+	margin: 0 500px;
+}
+.header h1 {
+	font-size: 40px;
+}
+.bounding {
+	background-color: #f3f3f3;
+	margin-left: 90px;
+}
+.blogbox {
+	float: left;
+	position: relative;
+	text-align: left;
+	top: 950px;
+	background-color: white;
+	border-radius: 12px;
+	margin-left: 50px;
+}
+.blogbox img {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.blogbox h3 {
+	font-weight: bold;
+	padding: 5px 0 0 30px;
+	font-size: 20px;
+}
+.desc {
+	color: grey;
+	padding: 10px 0 0 30px;
+}
+.date {
+	color: grey;
+	padding: 30px 0 0 30px;
+}
+.blog_boxButtonsleft h3 {
+	font-weight: normal;
+	margin-top: -10px;
+	color: orangered;
+	padding-bottom: 20px;
+}
+.footer {
+	background-color: #252628;
+	float: left;
+	position: relative;
+	top: 1100px;
+	color: white;
+	width: 100%;
+	padding-top: 75px;
+}
+.footerleft {
+	float: left;
+	margin-left: 90px;
+	padding-bottom: 60px;
+}
+.footerleft i {
+	color: #ff3d00;
+}
+.footerleft h3 {
+	margin-left: 100px;
+	margin-top: -50px;
+	font-weight: bold;
+}
+.footerright {
+	float: right;
+	margin-right: 125px;
+	background-color: white;
+	border-radius: 4px;
+	padding: 3px 5px;
+}
+.footerright input[type=text] {
+	border: 0;
+	width: 400px;
+	height: 50px;
+}
+.footerright button {
+	border: 0;
+	font-weight: bolder;
+	border-radius: 4px;
+	width: 150px;
+	height: 50px;
+	background-color: #ff3d00;
+	color: white;
+}
+.centerfooter {
+	float: left;
+	padding: 10px 90px;
+}
+.centerfooter i {
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 4px;
+}
+.div1 {
+	float: left;
+	width: 310px;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+.div1 ul {
+    list-style-type: none;
+    color: white;
+    margin-left: 25px;
+    line-height: 47px;
+}
+.div1 p {
+	line-height: 30px;
+}
+.div1 ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+}
+.div1 h3 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.div1 h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 55px;
+	margin-top: 0px;
+	line-height: 20px;
+}
+.div1 img {
+	border-radius: 8px;
+	margin-bottom: 25px;
+}
+.posts {
+	float: right;
+}
+.footdates {
+	color: darkgrey;
+	font-size: 13px;
+}
+.footfoot {
+	float: left;
+	padding: 40px 90px;
+	width: 96%;
+}

@@ -1,0 +1,28 @@
+.container{
+	width: 1170px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #ff0000;
+}
+.navigation{}
+.navigation ul{}
+.navigation ul li{
+	list-style: none;
+}
+.navigation ul li a{
+	float: left;
+	padding: 10px 20px;
+	color: #506AD4;
+	background-color: #A3CDD9;
+	border: 2px solid #C2B8AD;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.navigation ul li a:hover{
+	color: #C2B8AD;
+	background-color: #F2CC39;
+	text-decoration: underline;
+}
+.navigation ul li a.active {
+	background-color: #F2CC39;
+}

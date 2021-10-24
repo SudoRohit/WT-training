@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(white, #d3d8e8);
+}
+
+.padding-zero {
+  padding-left: 0;
+  width: 100%;
+}
+.padding-right{
+   padding-left: 5rem;
+}
+
+.app-navbar {
+  background: #3b5b96 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.app-navbar .navbar-brand {
+  color: #fff;
+  font-size: 38px;
+  margin-left: 49px;
+  font-weight: bold;
+}
+
+.signin-btn {
+  vertical-align: top;
+  margin-top: 27px;
+}
+
+.text-white {
+  color: white;
+}
+.col-sm-7 img {
+  height: 250px;
+  width: 450px;
+}
+.col-sm-7 p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  color: #0e385f;
+  width: 450px;
+}
+.col-sm-3 .pl {
+  font-size: 14px;
+}
+.row .terms {
+  color: #424242;
+  font-size: 15px;
+}
+.ml-auto {
+  margin-right: 73px;
+}
